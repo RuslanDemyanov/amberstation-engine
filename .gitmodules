@@ -1,0 +1,9 @@
+[submodule "src/main/cpp/third_party/pcsx_rearmed"]
+	path = src/main/cpp/third_party/pcsx_rearmed
+	url = https://github.com/notaz/pcsx_rearmed.git
+[submodule "src/main/cpp/third_party/fceumm"]
+	path = src/main/cpp/third_party/fceumm
+	url = https://github.com/libretro/libretro-fceumm.git
+[submodule "src/main/cpp/third_party/clownmdemu"]
+	path = src/main/cpp/third_party/clownmdemu
+	url = https://github.com/Clownacy/clownmdemu-libretro.git
