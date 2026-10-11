@@ -33,6 +33,9 @@ const CoreSpec *CoreFor(const std::string &ext)
         "libfceumm_libretro.so",
         {
             {"fceumm_sndrate_hint", "44KHz"}, // звук в общей памяти — 44100 Гц
+            // турбо A/B на X/Y RetroPad (кнопки оверлея «Турбо»), 3 кадра
+            {"fceumm_turbo_enable", "Player 1"},
+            {"fceumm_turbo_delay", "3"},
         },
     };
     // Sega Mega Drive / Genesis
